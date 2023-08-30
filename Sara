@@ -1,0 +1,74 @@
+let seuNome = prompt("qual seu nome");
+let cor = prompt("qual sua cor preferida?");
+
+console.log("A cor favorita de" + seuNome + "é" + cor);
+console.log(`A cor favorita de" ${seuNome} é ${cor}`);
+
+console.log(seuNome.length);
+
+
+const frase = "Oiieee";
+const fraseMinuscula = frase.toLowerCase()
+const fraseMaiuscula = frase.toLowerCase()
+console.log(fraseMinuscula)
+console.log(fraseMaiuscula)
+
+const email = " mika@gmail.com "
+console.log(email.trim()) 
+
+const frase2 = "hoje comi batata"
+console.log(frase2.includes("batata"));
+console.log(frase2.includes("carne"));
+
+const frase3 = "Hoje comi batata, adoro batata"
+const novaFrase = frase.replaceAll("batata", "carne")
+console.log(novaFrase);
+
+const frase4 = "vamos inter";
+const frase5 = frase4.toUpperCase();
+console.log(frase5)
+const frase6 = "vamo vamo gremio";
+const frase7 = frase6.replaceAll("o", "i");
+console.log(frase6)
+console.log(frase6.length);
+
+const listaDeCompras = ["batata","salgadinho", "queijo"]
+const listaDeNumerosMega = [2, 13, 26, 35, 41,60]
+const meuArray = ["banana", 15, true]
+
+const listaDeCompras2 = ["Abacate", "banana", "Morango"]
+const segundoItem = listaDeCompras2 [2]
+console.log(segundoItem)
+
+const array = ["pinscher", "bulldog", "pastor alemão", "vira lata", "pastor australiano"];
+let cachorro = array [Number(prompt("escolha um numero de 0 a 4"))];
+console.log(cachorro)
+const pokemon = ["bulbasauro", "squirtle", "charmander"]
+console.log(pokemon.length);
+
+const seriesBoas = ["The Big Bang Theory", "Brooklyn Nine-nine"]
+seriesBoas.includes("The Big Bag Theory")
+seriesBoas.includes("Games of Throne")
+
+const numeros = [1, 2, 3]
+numeros.push(4)
+console.log(numeros)
+numeros.push(5, 6, 7)
+console.log(numeros) 
+
+const meusPeixes = ["palhaço", "mandarim", "esturjão"]
+meusPeixes.pop()
+console.log(meusPeixes)
+
+
+const letras = ["A", "B", "C", "D", "E", "G", "H"]
+letras.splice(2,1)
+console.log(letras)
+letras.splice(3,2)
+console.log(letras)
+
+const array2 = ["1", "2", "3", "4", "5", "6"];
+console.log(array2.lengyh);
+array2.push(7);
+array2.splice(3 ,2);
+console.log(array2.length)
